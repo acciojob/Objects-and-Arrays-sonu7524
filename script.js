@@ -5,12 +5,14 @@ const person = {
   age: 80,
 };
 
-const team = players;
-const team1 = [...players];
 
-const cap1 = [...person];
 window.players = players;
 window.person = person;
 window.team = team;
 window.team1 = team1;
 window.cap1 = cap1;
+
+team = players;
+team1 = [...players];
+
+cap1 = [...person];
