@@ -5,14 +5,11 @@ const person = {
   age: 80,
 };
 
-
-window.players = players;
-window.person = person;
-window.team = team;
-window.team1 = team1;
-window.cap1 = cap1;
-
+// Create a reference to the players array
 const team = players;
+
+// Create a copy of the players array
 const team1 = [...players];
 
-const cap1 = [...person];
+// Create a copy of the person object
+const cap1 = { ...person };
